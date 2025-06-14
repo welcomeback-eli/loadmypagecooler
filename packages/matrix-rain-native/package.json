@@ -1,0 +1,16 @@
+{
+  "name": "matrix-rain-native",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "peerDependencies": {
+    "react": "^17 || ^18",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "matrix-core": "0.1.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}
